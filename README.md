@@ -28,15 +28,21 @@ To run the notebook, you need to have Python and Jupyter Notebook installed. You
 - `util_functions`: A self-written library containing utility functions used in the analysis.
 
 ### util_functions
-- _util.plot_total_sales(DataTable, label_date='date_dt', label_plot='sales_qt', label_groups='', group_value='')_ is the function used to plot the total sales over time. Using the attributes _label\_groups_ and _group\_value_ one is able to consider only a certain type of sales, for example considering only a single store.
+- _util.plot_total_sales(DataTable, label_date='date_dt', label_plot='sales_qt', label_groups='', group_value='')_ 
 
-- _util.groupby_sum_plot(DataTable, group, target_plot, title='', nlargest=-1, xlabel='', ylabel='')_ is the function used to bar-plot the dataset. The attributes are:
+    is the function used to plot the total sales over time. Using the attributes _label\_groups_ and _group\_value_ one is able to consider only a certain type of sales, for example considering only a single store.
+
+- _util.groupby_sum_plot(DataTable, group, target_plot, title='', nlargest=-1, xlabel='', ylabel='')_ 
+
+    is the function used to bar-plot the dataset. The attributes are:
     - group: the dataset feature for which the DataTable is grouped-by
     - target\_plot: the dataset feature that is plotted
     - nlargest: it considers only the top n values in descending order
     - xlabel, ylabel: if these attributes remain equalt to '', then in the plot label the values of _group_ and _target\_plot_ are set
 
-- _plot_size_stock_vs_sold(DataT_available, DataT_sold, product_type, size)_ is the function used to time-plot the availability and sales for each product type and size
+- _plot_size_stock_vs_sold(DataT_available, DataT_sold, product_type, size)_ 
+
+    is the function used to time-plot the availability and sales for each product type and size
 
 
 ## Usage
