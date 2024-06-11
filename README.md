@@ -43,11 +43,11 @@ To run the notebook, you need to have Python and Jupyter Notebook installed. You
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/sales-data-analysis.git
+    git clone https://https://github.com/ZIB012/Data_exploration_for_SDG_Group.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd sales-data-analysis
+    cd Data_exploration_for_SDG_Group
     ```
 3. Open the Jupyter notebook:
     ```bash
